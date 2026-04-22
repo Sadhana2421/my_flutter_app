@@ -16,3 +16,4 @@ workflows:
 
     artifacts:
       - ios-app/**/*.ipa
+      - /tmp/xcodebuild_logs/*.log

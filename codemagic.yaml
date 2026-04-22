@@ -8,12 +8,9 @@ workflows:
       xcode: latest
 
     scripts:
-      - name: Install dependencies
-        script: |
-          cd ios-app
-
       - name: Build IPA
         script: |
+          cd ios-app
           chmod +x build-ipa.sh
           ./build-ipa.sh
 
